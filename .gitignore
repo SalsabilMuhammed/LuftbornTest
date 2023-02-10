@@ -40,3 +40,6 @@ CompanyAngular/typings
 # System files
 CompanyAngular/.DS_Store
 CompanyAngular/Thumbs.db
+
+# vscode settings
+.vscode/*
