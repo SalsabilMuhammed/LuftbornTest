@@ -1,0 +1,42 @@
+CompanyAngular/node_modules
+
+# Compiled output
+CompanyAngular/dist
+CompanyAngular/tmp
+CompanyAngular/out-tsc
+CompanyAngular/bazel-out
+
+# Node
+CompanyAngular/node_modules
+CompanyAngular/npm-debug.log
+CompanyAngular/yarn-error.log
+
+# IDEs and editors
+CompanyAngular/.idea/
+CompanyAngular/.project
+CompanyAngular/.classpath
+CompanyAngular/.c9/
+CompanyAngular/*.launch
+CompanyAngular/.settings/
+CompanyAngular/*.sublime-workspace
+
+# Visual Studio Code
+CompanyAngular/.vscode/*
+CompanyAngular/!.vscode/settings.json
+CompanyAngular/!.vscode/tasks.json
+CompanyAngular/!.vscode/launch.json
+CompanyAngular/!.vscode/extensions.json
+CompanyAngular/.history/*
+
+# Miscellaneous
+CompanyAngular/.angular/cache
+CompanyAngular/.sass-cache/
+CompanyAngular/connect.lock
+CompanyAngular/coverage
+CompanyAngular/libpeerconnection.log
+CompanyAngular/testem.log
+CompanyAngular/typings
+
+# System files
+CompanyAngular/.DS_Store
+CompanyAngular/Thumbs.db

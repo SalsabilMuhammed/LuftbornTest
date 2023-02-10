@@ -1,0 +1,22 @@
+
+<div class="d-flex justify-content-between mx-4 my-2">
+  <div class="d-flex h-50 align-self-center">
+    <a  class="btn btn-secondary h-50 align-self-center me-2" (click)="GoBack()"> &laquo; Back</a>
+    <h1>Edit Employee</h1>
+  </div>
+</div>
+<br> 
+
+<div class="mx-4 w-50">
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Employee Name</label>
+      <input name="employeename" class="form-control" [(ngModel)]="Employee.name" >
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Employee Address</label>
+      <input name="employeeaddress" class="form-control" [(ngModel)]="Employee.address">
+    </div>
+    <button type="submit" class="btn btn-secondary" (click) = "EditEmployee()">Submit</button>
+  </form>
+</div>

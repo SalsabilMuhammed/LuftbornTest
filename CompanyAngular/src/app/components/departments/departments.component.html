@@ -1,0 +1,27 @@
+<div class="d-flex justify-content-between mx-4 my-2">
+  <div class="d-flex h-50 align-self-center">
+    <a  class="btn btn-secondary h-50 align-self-center me-2" (click)="GoBack()"> &laquo; Back</a>
+    <h1>Departments</h1>
+  </div>
+</div>
+<br>
+
+
+<div class="mx-4">
+  <table  class="table table-hover table-bordered text-center" >
+    <thead>
+      <tr>
+        <th scope="col">Department Id</th>
+        <th scope="col">Department Name</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dep of Departments">
+        <td>{{dep.id}}</td>
+        <td>{{dep.name}}</td>
+        <td><a class="btn btn-secondary" routerLink="/department/{{dep.id}}">View Employees&raquo;</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

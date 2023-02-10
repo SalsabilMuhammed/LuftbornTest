@@ -1,0 +1,36 @@
+<div class="d-flex justify-content-between mx-4 my-2">
+  <div class="d-flex h-50 align-self-center">
+    <a  class="btn btn-secondary h-50 align-self-center me-2" (click)="GoBack()"> &laquo; Back</a>
+    <h1>Employees</h1>
+  </div>
+  <a class="btn btn-secondary h-50 align-self-center" (click)="AddEmployee()">Add Employee &raquo;</a>
+</div>
+<br> 
+
+<div class="mx-4">
+  <table  class="table table-hover table-bordered text-center">
+    <thead>
+      <tr>
+        <th scope="col">Employee Id</th>
+        <th scope="col">Employee Name</th>
+        <th scope="col">Employee Address</th>
+        <th scope="col">Edit Employee</th>
+        <th scope="col">Delete Employee</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of Employees">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.address}}</td>
+        <td><a class="btn btn-secondary" (click)="EditEmployee(emp.id)">Edit Employee &raquo;</a></td>
+        <td><a class="btn btn-danger" (click)="DeleteEmployee(emp.id)">Delete Employee &raquo;</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ 
+ 
+
+
+  

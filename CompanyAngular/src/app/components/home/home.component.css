@@ -1,0 +1,39 @@
+/* .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  } */
+  
+  .top_div {
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0%; */
+    background-color:rgb(188, 221, 232);
+    text-align:center;
+    background-image:url(../../../assets/giant-building-with-sun.jpg); 
+    background-size: cover;
+     background-repeat: no-repeat;
+  }
+  /* img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+
+  } */
+  
+  .bottom_div {
+    /* position: absolute;
+    top: 0%;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    /* background-color:#990000; */
+    text-align:center;
+    /* color:#FFFFFF; */
+  }
